@@ -1,0 +1,199 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bgimage{
+	background-image: url('tt.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+
+    width: 100%;
+    height: 100px;
+    background-color: #b2ebf2f5;
+}
+
+.leftmenu{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+}
+
+.leftmenu h4{
+	padding-left: 83px;
+	font-weight: bold;
+	color:  #143a69;
+	font-size: 25px;
+	margin-top: -148px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+.rightmenu ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:#143a69;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+
+#fisrtlist{
+	color: #f44336;
+}
+
+.note {
+	background: #524e4ed9;
+    height: 22px;
+    padding: 6px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.note p{
+	color: white;
+	font-weight: 700;
+}
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+}
+
+.text h4{
+
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+/* 
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+} */
+
+.text h3{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+$avatar-size: 32px;
+$body-background: #333641;
+
+@font-face {
+	font-family: "ubuntu";
+	font-style: italic;
+	font-weight: 300;
+	src: local("Lato Light Italic"), local("Lato-LightItalic"),
+		url(https://fonts.gstatic.com/s/ubuntucondensed/v8/u-4k0rCzjgs5J7oXnJcM_0kACGMtT-Dfqw.woff2)
+			format("woff2");
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+	background-color: $body-background;
+	font-family: "ubuntu", Arial, sans-serif;
+	overflow-x: hidden;
+	display: grid;
+	place-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: #9ca0b1;
+}
+
+.wrapper {
+    text-align: center;
+    background: aliceblue;
+    width: 967px;
+    margin-left: 250px;
+    }
+
+	.wrapper h1 {
+		color: #fff;
+        font-size: 62px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+		font-family: "ubuntu";
+		text-transform: uppercase;
+		font-weight: 700;
+		font-family: "Josefin Sans", sans-serif;
+        background: linear-gradient(to right, #e72d1f 10%, #fbb315 50%, #143a69 60%);
+		background-size: auto auto;
+		background-clip: border-box;
+		background-size: 200% auto;
+		color: #fff;
+		background-clip: text;
+		text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: textclip 3s linear infinite;
+		display: inline-block;
+	}
+
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+
+
+#buttonone{
+	background-color: white;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+	cursor: pointer;
+}
+
+#buttonone a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#buttontwo{
+
+	background-color: transparent;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+	border: 3px solid white;
+	width: 150px;
+	cursor: pointer;
+	color: white;
+}
+
